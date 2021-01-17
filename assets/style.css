@@ -1,7 +1,3 @@
 .bkgimg {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYwkThwizmYtzc3bJrt3A93o03TX10OwxGZw&usqp=CAU);
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  filter: grayscale(100%);
+  background-image: url(./Toolsimg.png);
 }
