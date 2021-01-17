@@ -6,3 +6,19 @@
   max-height: 50%;
   max-width: 50%;
 }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+.lrgsc {
+  margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 0px;
+  }
+}
