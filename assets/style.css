@@ -1,3 +1,8 @@
 .bkgimg {
   background-image: url(./Toolsimg.png);
 }
+
+.thumbnail img {
+  max-height: 50%;
+  max-width: 50%;
+}
