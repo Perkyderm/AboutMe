@@ -22,3 +22,8 @@
     margin-left: 0px;
   }
 }
+
+footer img {
+  height: 80px;
+  float: right;
+}
