@@ -16,8 +16,8 @@
   border-bottom-right-radius: 5px;
 }
 
-@media (min-width: 1200px) {
-  .container {
+@media (min-width: 991px) {
+  .aboutme {
     max-width: 768px;
   }
 }
@@ -27,7 +27,7 @@
 }
 
 @media (max-width: 768px) {
-  .container,
+  .aboutme,
   .folio {
     margin-left: 0px;
   }
@@ -40,6 +40,7 @@
   border-radius: 5px;
 }
 
+/* Footer */
 footer img {
   height: 80px;
   position: absolute;
