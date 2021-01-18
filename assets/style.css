@@ -27,9 +27,17 @@
 }
 
 @media (max-width: 768px) {
-  .container {
+  .container,
+  .folio {
     margin-left: 0px;
   }
+}
+
+.sectionstyle {
+  background-color: white;
+  position: relative;
+  margin-bottom: 400px;
+  border-radius: 5px;
 }
 
 footer img {
