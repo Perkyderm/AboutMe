@@ -40,21 +40,30 @@
 </nav>
 
 
-<section class="container lrgsc message sectionstyle">
+<section class="container message lrgsc sectionstyle">
     <div class="row">
-        <div class="col-sm-3">
-            <h1>Send a Message</h1>
+        <div class="col-xs-4">
+            <h1 style="color: #2C1C47;">Send a Message</h1>
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-12">
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="name"></input>
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="email" class="form-label">Email address:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message:</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 mb-3">
+                    <button type="button" class="btn" style="background-color:#2C1C47; color: white; text-align: ;width: 100px;">Send!</button>
+                </div>
             </div>
 
         </div>

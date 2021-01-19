@@ -17,7 +17,8 @@
 }
 
 @media (min-width: 991px) {
-  .aboutme .message {
+  .aboutme,
+  .message {
     max-width: 768px;
   }
 }
@@ -28,7 +29,8 @@
 
 @media (max-width: 768px) {
   .aboutme,
-  .folio .message {
+  .folio,
+  .message {
     margin-left: 0px;
   }
 }
