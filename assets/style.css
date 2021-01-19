@@ -35,14 +35,33 @@
   }
 }
 
-font-family: "Imbue", serif;
-font-family: "Tangerine", cursive;
+h1 {
+  margin-top: 5px;
+  font-family: Italianno, cursive;
+  font-size: 50px;
+  font-weight: bold;
+}
 
 .sectionstyle {
   background-color: white;
   position: relative;
   margin-bottom: 400px;
   border-radius: 5px;
+  font-family: EB Garamond, serif;
+  font-weight: 600;
+}
+
+label {
+  font-family: EB Garamond;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: x-large;
+}
+
+input,
+textarea {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;);
 }
 
 /* Footer */
