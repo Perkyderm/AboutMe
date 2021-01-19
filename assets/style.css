@@ -1,3 +1,6 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
 .bkgimg {
   background-image: url(./Toolsimg.png);
 }
@@ -37,8 +40,7 @@
 
 h1 {
   margin-top: 5px;
-  font-family: Italianno, cursive;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -47,33 +49,29 @@ h1 {
   position: relative;
   margin-bottom: 400px;
   border-radius: 5px;
-  font-family: EB Garamond, serif;
-  font-weight: 600;
 }
 
 label {
-  font-family: EB Garamond;
   font-weight: 600;
   text-decoration: underline;
-  font-size: x-large;
+  font-size: medium;
 }
 
 input,
 textarea {
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-.btnstlye {
-    background-color:#2C1C47; 
-    color: white;
-    width: 100px; 
-    height: 60px; 
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; 
-    font-family:EB Garamond; 
-    font-size: large; 
-    font-weight: 600;
+.buttonstylez {
+  background-color: #2c1c47;
+  color: white;
+  width: 100px;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  font-weight: 500;
 }
+
 /* Footer */
 footer img {
   height: 90px;
