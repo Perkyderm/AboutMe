@@ -9,7 +9,7 @@ The purpose of this site is to display use of responsives when using different s
 I achevied this by applying the collapse feature to the <nav> and either used the "container-fluid" bootstrap feature or set up a media query in CSS that limits or changes a container size.
 
 ![alt text](./largescreen.png)
-![alt text](./smallscreen.png)
+![alt text](./Smallscreen.png)
 
 # Usage
 
