@@ -1,15 +1,19 @@
 body {
   font-family: "Noto Sans JP", sans-serif;
 }
+
+/* Background image */
 .bkgimg {
   background-image: url(./Toolsimg.png);
 }
 
+/* About me first photo */
 .thumbnail img {
   max-height: 50%;
   max-width: 50%;
 }
 
+/* Nave bar at small screen dropdown */
 .hover {
   padding: 10px;
   position: fixed;
@@ -19,6 +23,7 @@ body {
   border-bottom-right-radius: 5px;
 }
 
+/* When screen is above 991px, the conainer on about me and contact will not expand */
 @media (min-width: 991px) {
   .aboutme,
   .message {
@@ -26,10 +31,12 @@ body {
   }
 }
 
+/* at large screen sizes, a margin left of container will appear */
 .lrgsc {
   margin-left: 50px;
 }
 
+/* When screen size is below 769px, the container will snap to the left.  */
 @media (max-width: 768px) {
   .aboutme,
   .folio,
@@ -38,12 +45,14 @@ body {
   }
 }
 
+/* Header style */
 h1 {
   margin-top: 5px;
   font-size: 30px;
   font-weight: bold;
 }
 
+/* Container text styling */
 .sectionstyle {
   background-color: white;
   position: relative;
@@ -51,6 +60,7 @@ h1 {
   border-radius: 5px;
 }
 
+/* Conact box stlying */
 label {
   font-weight: 600;
   text-decoration: underline;
@@ -73,6 +83,7 @@ textarea {
 }
 
 /* Footer */
+/* climbsilo.png style */
 footer img {
   height: 90px;
   position: absolute;
@@ -93,6 +104,7 @@ footer img {
   );
 }
 
+/* Instagram logo */
 .IGlogo {
   font-size: 40px;
   position: absolute;
