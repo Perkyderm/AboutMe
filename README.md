@@ -3,6 +3,7 @@
 # Purpose
 
 Here is the url to the site:
+<a href="https://perkyderm.github.io/AboutMe/">ME</a>
 
 The purpose of this site is to display use of responsives when using different sized viewports.
 
@@ -13,7 +14,7 @@ I achevied this by applying the collapse feature to the <nav> and either used th
 
 # Usage
 
-In order to start, enter the url <a href="https://perkyderm.github.io/AboutMe/">here</a> into a broswer.
+In order to start, enter the url into a broswer.
 
 To see the responsiveness in action, first, open devtools in your browser while on my website. Then Selcet the viewport to be responisve and reduce the window size to see the change!
 
