@@ -1,34 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Contact</title>
+    <link rel="icon" href="./AboutMe/assets/Nick Elephant Logo v2.svg">
     
-    <link rel="icon" href="./assets/Nick Elephant Logo v2.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-            crossorigin="anonymous"></script>
-<link rel="stylesheet" href="./assets/style.css">
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./AboutMe/assets/style.css">
 <script src="https://kit.fontawesome.com/54913567a4.js" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 
 
-
-
-</head>
+</head">
 
 <body class="bkgimg">
-
 <nav class="navbar navbar-expand-md navbar-dark sticky-top" style="background-color: #2C1C47; margin-bottom: 50px;">
     <div class="container-fluid">
         <a class="navbar-brand" style="font-weight: bolder;"><img
-                src="assets/Nick Elephant Logo v2.svg"> Nick Goedecke</a>
+                src="./AboutMe/assets/Nick Elephant Logo v2.svg"> Nick Goedecke</a>
 
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -39,42 +34,54 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav" style="float: right;">
 
             <ul class="navbar-nav mr-auto hover">
-                    <li><a class="nav-link active" href="index.html">About Me</a></li>
-                    <li><a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-                </ul>
-            </div>
+                <li><a class="nav-link" href="index.html">About Me</a></li>
+                <li><a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li><a class="nav-link active" href="contact.html">Contact</a></li>
+            </ul>
+            </ul>
         </div>
-    </nav>
-
-    <div class="container aboutme lrgsc sectionstyle">
-    
-        <div class="row">
-            <div class="col-sm-4">
-                <h1 style="color: #2C1C47;">About Me!</h1>
-            </div>
-            </div>
-
-            <section class="row">
-                <div class="col-lg-12 thumbnail">
-                <img src="./assets/20201225_114129.jpg" alt="Me on a Hike" style="float:left; margin-right: 10px;">
-                <p>Hey there, 
-                <br> 
-                Welcome to my about me and portfolio site! I really need to spends some time to fill this out....wrting about yourself is tough. In the meantime, use the links in the footer to learn about me, both professionaly and recreationaly. </p>
-                <br>
-                    <img src="./assets/Glass Beach Scrambeling.jpg" alt="Climbing in Hawaii"
-                        style="float: right; height: 200px; margin-bottom: 40px; margin-left: 5px; position: relative; right: 0px;">
-                    <p>commodi quas animi quos ab. Saepe vitae dolorum minus expedita animi cupiditate enim, quo ipsa quibusdam
-                        voluptas?
-                        Voluptate sunt quis eligendi nobis quo eos odio labore nostrum quaerat esse? Blanditiis et quisquam laborum cum
-                        accusamus, i</p>
-                </div>
-            </section>
     </div>
-    
-        
+</nav>
+
+
+<section class="container message lrgsc sectionstyle">
+    <div class="row">
+        <div class="col-xs-4">
+            <h1 style="color: #2C1C47;">Send a Message</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="name"></input>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message:</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 mb-3">
+                    <button type="button" class="btn buttonstylez">Send!</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</section>
+
+
+
+
 <footer class="footerstyle">
     <div class="container-fluid" style="position: relative">
         <div style="position: absolute; bottom: 0px;">
@@ -94,6 +101,6 @@
 
 </footer>
 
-</body>
 
+</body>
 </html>
